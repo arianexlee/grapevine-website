@@ -1,5 +1,4 @@
 /* eslint-disable jsx-a11y/alt-text */
-import { useLocation } from "react-router-dom";
 import Logo from "../imgs/Grape.svg";
 import { HashLink as Link } from "react-router-hash-link";
 import { useHeadsObserver } from "../hooks/hooks";
@@ -20,7 +19,7 @@ export function Navbar() {
   };
 
   return (
-    <div className="bg-white shadow-lg text-black flex-1 flex flex-col sticky top-0 items-center bg-teal px-[110px] py-[24px] md:flex-row text-2xl md:justify-between">
+    <div className="bg-white shadow-lg text-black flex-1 flex flex-col sticky top-0 gap-2 items-center bg-teal px-[110px] py-[24px] md:flex-row text-2xl md:justify-between">
       <div className="logo flex flex-row justify-center items-center">
         <a href="/" className="flex flex-row logo items-center space-x-[4px]">
           <img src={Logo} className="h-[30px]" />
@@ -29,15 +28,7 @@ export function Navbar() {
       </div>
       <div className=" navlinks">
         <div className="flex flex-row font-chivo space-x-[16px] md:space-x-[32px] text-lg md:text-2xl">
-          <div
-          // style={
-          //   currentSection === "home"
-          //     ? {
-          //         textDecorationLine: "underline",
-          //       }
-          //     : { textDecorationLine: "none" }
-          // }
-          >
+          <div>
             <Link
               to="#home"
               scroll={(el) => scrollWithOffset(el)}
@@ -46,13 +37,7 @@ export function Navbar() {
               ABOUT
             </Link>
           </div>
-          <div
-          // style={
-          //   currentSection === "process"
-          //     ? { textDecorationLine: "underline" }
-          //     : { textDecorationLine: "none" }
-          // }
-          >
+          <div>
             <Link
               to="#process"
               scroll={(el) => scrollWithOffset(el)}
@@ -61,13 +46,7 @@ export function Navbar() {
               PROCESS
             </Link>
           </div>
-          <div
-          // style={
-          //   currentSection === "process"
-          //     ? { textDecorationLine: "underline" }
-          //     : { textDecorationLine: "none" }
-          // }
-          >
+          <div>
             <Link
               to="#demo"
               scroll={(el) => scrollWithOffset(el)}
@@ -76,13 +55,7 @@ export function Navbar() {
               DEMO
             </Link>
           </div>
-          <div
-          // style={
-          //   currentSection === "team"
-          //     ? { textDecorationLine: "underline" }
-          //     : { textDecorationLine: "none" }
-          // }
-          >
+          <div>
             <Link
               to="#team"
               scroll={(el) => scrollWithOffset(el)}

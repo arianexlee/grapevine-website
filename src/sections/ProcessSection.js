@@ -1,4 +1,5 @@
 import { AssignmentBar } from "../components/AssignmentBar";
+import Video from "../imgs/concept.mp4";
 export function ProcessSection() {
   const assignmentData = [
     {
@@ -28,7 +29,7 @@ export function ProcessSection() {
         {
           id: 1,
           text: "mp4",
-          link: "../imgs/concept.mp4",
+          link: Video,
         },
         {
           id: 2,
@@ -88,7 +89,7 @@ export function ProcessSection() {
         {
           id: 1,
           text: "mp4",
-          link: "../imgs/concept.mp4",
+          link: Video,
         },
         {
           id: 2,
@@ -123,23 +124,6 @@ export function ProcessSection() {
       ],
     },
   ];
-
-  // const handleDownload = () => {
-  //   // Replace 'path/to/your/video.mp4' with the actual path to your video file
-  //   const videoPath = "../imgs/concept.mp4";
-
-  //   // Create a link element
-  //   const link = document.createElement("a");
-
-  //   // Set the href attribute to the local path of the video
-  //   link.href = videoPath;
-
-  //   // Set the download attribute to specify the filename
-  //   link.download = "downloaded_Gravepine_Concept_Video.mp4";
-
-  //   // Simulate a click on the link to trigger the download
-  //   link.click();
-  // };
 
   return (
     <div className="w-full px-[60px] py-20 md:px-[110px] " id="process">
