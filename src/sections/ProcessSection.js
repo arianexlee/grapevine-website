@@ -28,7 +28,7 @@ export function ProcessSection() {
         {
           id: 1,
           text: "mp4",
-          link: "https://www.youtube.com/watch?v=lRh_K2XxQLI",
+          link: "../imgs/concept.mp4",
         },
         {
           id: 2,
@@ -88,7 +88,7 @@ export function ProcessSection() {
         {
           id: 1,
           text: "mp4",
-          link: "https://www.canva.com/design/DAFzbkW1HQM/E2a1D9B1ZKRLCnTk70jbzg/edit?utm_content=DAFzbkW1HQM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+          link: "../imgs/concept.mp4",
         },
         {
           id: 2,
@@ -124,9 +124,26 @@ export function ProcessSection() {
     },
   ];
 
+  // const handleDownload = () => {
+  //   // Replace 'path/to/your/video.mp4' with the actual path to your video file
+  //   const videoPath = "../imgs/concept.mp4";
+
+  //   // Create a link element
+  //   const link = document.createElement("a");
+
+  //   // Set the href attribute to the local path of the video
+  //   link.href = videoPath;
+
+  //   // Set the download attribute to specify the filename
+  //   link.download = "downloaded_Gravepine_Concept_Video.mp4";
+
+  //   // Simulate a click on the link to trigger the download
+  //   link.click();
+  // };
+
   return (
-    <div className="w-full px-[60px] md:px-[110px] " id="process">
-      <h1 className="font-chivo text-2xl">PROCESS</h1>
+    <div className="w-full px-[60px] py-20 md:px-[110px] " id="process">
+      <h1 className="font-chivo text-3xl">PROCESS</h1>
       {assignmentData.map((item) => (
         <AssignmentBar title={item.title} links={item.links} key={item.title} />
       ))}
