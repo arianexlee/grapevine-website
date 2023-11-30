@@ -9,10 +9,11 @@ export function IntroSection() {
             Services you'll love, <br /> backed by people you trust.
           </h1>
           <p className="font-roboto text-xl">
-            Haircuts are personal, mechanics can scam you, and good nannies can
-            be tough to find. Grapevine connects you to businesses that have
-            been pre-vetted by your network so you don't have to rely on the
-            reviews of strangers to get the service you need.
+            Finding the right service, be it a chic haircut, an adept mechanic,
+            or a reliable nanny, can often be a daunting task. Grapevine
+            simplifies this process for you. We connect you with trusted
+            services recommended by your own network. Skip the uncertainty of
+            online reviews and find top-quality services with Grapevine!
           </p>
         </div>
         <div className="bg-black xl:bg-[#8B68C6]">

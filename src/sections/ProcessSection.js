@@ -1,5 +1,18 @@
 import { AssignmentBar } from "../components/AssignmentBar";
 import Video from "../imgs/concept.mp4";
+import A1ppt from "../docs/A1.pptx";
+import A1pdf from "../docs/A1.pdf";
+import A2ppt from "../docs/A2.pptx";
+import A2pdf from "../docs/A2.pdf";
+import A4ppt from "../docs/A4.pptx";
+import A4pdf from "../docs/A4.pdf";
+import A5ppt from "../docs/A5.pptx";
+import A5pdf from "../docs/A5.pdf";
+import A6ppt from "../docs/A6.pptx";
+import A6pdf from "../docs/A6.pdf";
+import A6README from "../docs/A6-README.pdf";
+import A9pdf from "../docs/A9.pdf";
+
 export function ProcessSection() {
   const assignmentData = [
     {
@@ -7,8 +20,13 @@ export function ProcessSection() {
       links: [
         {
           id: 1,
-          text: "canva",
-          link: "https://www.canva.com/design/DAFwVfSEKfg/1eRO8FZ9MKMzw0usQbdw2w/edit?utm_content=DAFwVfSEKfg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+          text: "ppt",
+          link: A1ppt,
+        },
+        {
+          id: 2,
+          text: "pdf",
+          link: A1pdf,
         },
       ],
     },
@@ -18,8 +36,13 @@ export function ProcessSection() {
       links: [
         {
           id: 1,
-          text: "canva",
-          link: "https://www.canva.com/design/DAFw_GlHbuc/9NZwva85hmHXeLiNa2PsMg/edit?utm_content=DAFw_GlHbuc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+          text: "ppt",
+          link: A2ppt,
+        },
+        {
+          id: 2,
+          text: "pdf",
+          link: A2pdf,
         },
       ],
     },
@@ -38,8 +61,13 @@ export function ProcessSection() {
         },
         {
           id: 3,
-          text: "canva",
-          link: "https://www.canva.com/design/DAFxlUF28CU/Gec8kvp6pTK0_V7g3O09vg/edit",
+          text: "ppt",
+          link: A4ppt,
+        },
+        {
+          id: 4,
+          text: "pdf",
+          link: A4pdf,
         },
       ],
     },
@@ -48,8 +76,13 @@ export function ProcessSection() {
       links: [
         {
           id: 1,
-          text: "canva",
-          link: "https://www.canva.com/design/DAFyJbqvra8/ZD_aSi02Qo0e5iX2Cx3Okg/edit?utm_content=DAFyJbqvra8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+          text: "ppt",
+          link: A5ppt,
+        },
+        {
+          id: 2,
+          text: "pdf",
+          link: A5pdf,
         },
       ],
     },
@@ -59,7 +92,7 @@ export function ProcessSection() {
         {
           id: 1,
           text: "README",
-          link: "https://www.canva.com/design/DAFzbkW1HQM/E2a1D9B1ZKRLCnTk70jbzg/edit?utm_content=DAFzbkW1HQM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+          link: A6README,
         },
         {
           id: 2,
@@ -68,8 +101,13 @@ export function ProcessSection() {
         },
         {
           id: 3,
-          text: "canva",
-          link: "https://www.canva.com/design/DAFy2uitSAw/P-QnIyjW0uoxVPX4NXNDgg/edit?utm_content=DAFy2uitSAw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+          text: "ppt",
+          link: A6ppt,
+        },
+        {
+          id: 4,
+          text: "pdf",
+          link: A6pdf,
         },
       ],
     },
@@ -78,8 +116,8 @@ export function ProcessSection() {
       links: [
         {
           id: 1,
-          text: "report",
-          link: "https://docs.google.com/document/d/14hP97vICYhwuthU31tntSvLFCLdC4hz5PDXMj3EFzlg/edit?usp=sharing",
+          text: "pdf",
+          link: A9pdf,
         },
       ],
     },
@@ -98,18 +136,28 @@ export function ProcessSection() {
         },
         {
           id: 3,
-          text: "slide",
-          link: "https://www.canva.com/design/DAFy2uitSAw/P-QnIyjW0uoxVPX4NXNDgg/edit?utm_content=DAFy2uitSAw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+          text: "slides ppt",
+          link: A5ppt,
         },
         {
           id: 4,
-          text: "script",
-          link: "https://www.figma.com/proto/kYvHrnqoLD0qnNdP5VA7Fs/Grapevine-(Copy)?page-id=0%3A1&type=design&node-id=1467-14731&viewport=9005%2C-1246%2C0.47&t=ctno9AfaTkxUHHDy-9&scaling=scale-down&starting-point-node-id=1467%3A14731&show-proto-sidebar=1",
+          text: "slides pdf",
+          link: A5pdf,
         },
         {
           id: 5,
-          text: "poster",
-          link: "https://www.canva.com/design/DAFy2uitSAw/P-QnIyjW0uoxVPX4NXNDgg/edit?utm_content=DAFy2uitSAw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+          text: "script",
+          link: A6README,
+        },
+        {
+          id: 6,
+          text: "poster docx",
+          link: A6README,
+        },
+        {
+          id: 6,
+          text: "poster pdf",
+          link: A6README,
         },
       ],
     },
@@ -118,8 +166,13 @@ export function ProcessSection() {
       links: [
         {
           id: 1,
-          text: "report",
-          link: "https://www.canva.com/design/DAFzbkW1HQM/E2a1D9B1ZKRLCnTk70jbzg/edit?utm_content=DAFzbkW1HQM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+          text: "docx",
+          link: A6README,
+        },
+        {
+          id: 2,
+          text: "pdf",
+          link: A6README,
         },
       ],
     },

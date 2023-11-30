@@ -6,7 +6,7 @@ export function ConceptSection() {
         <div className="flex-1 h-[400px]">
           <iframe
             width="100%"
-            className="h-[200px] sm:h-[300px] lg:h-[400px]"
+            className="h-[200px] sm:h-[300px] lg:h-[420px]"
             src="https://www.youtube.com/embed/lRh_K2XxQLI?si=lp5a4dx4gUWab1MP"
             title="YouTube video player"
             frameborder="0"
@@ -17,17 +17,20 @@ export function ConceptSection() {
         <div className="flex-1 flex flex-col gap-4 justify-center">
           <h1 className="font-chivo text-4xl">Why Grapevine?</h1>
           <p className="font-roboto text-xl">
-            Grapevine was born from the realization that unlike food or
-            entertainment, services are very personal. We tend to defer to the
-            people we know- family, friends, friends of friends, etc.- when it
-            comes to these things. While people can stomach a bad meal, a bad
-            mechanic is something to avoid at all costs.
+            Grapevine emerged from an essential insight: services are deeply
+            personal, far more than choosing a restaurant or a movie. We
+            naturally turn to our trusted circle - family, friends, and even
+            their acquaintances - for recommendations in these crucial areas.
+            While a less-than-stellar meal might be forgettable, the
+            consequences of subpar childcare can be significant.
             <br />
             <br />
-            Grapevine streamlines the process of finding and asking for
-            recommendations from your network so you'll never have to text
-            everyone in your contacts or feel bad about pestering someone for
-            that one nanny they loved again.
+            Our app simplifies your quest for trusted recommendations. With
+            Grapevine, you can effortlessly search for recommendations within
+            your direct contacts and their respective circles, ensuring you have
+            a wealth of trusted options at your fingertips. No more endless
+            texts or awkward requests for referrals. Discover the best services
+            with ease and confidence, all through Grapevine.
           </p>
         </div>
       </div>
