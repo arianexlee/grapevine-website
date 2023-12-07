@@ -10,6 +10,7 @@ export function HomePage() {
       <ConceptSection />
       <ProcessSection />
       <DemoSection />
+      
       <TeamSection />
     </div>
   );

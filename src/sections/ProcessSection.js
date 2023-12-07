@@ -1,5 +1,6 @@
 import { AssignmentBar } from "../components/AssignmentBar";
 import Video from "../imgs/concept.mp4";
+import DemoVideo from "../imgs/demo.mp4";
 import A1ppt from "../docs/A1.pptx";
 import A1pdf from "../docs/A1.pdf";
 import A2ppt from "../docs/A2.pptx";
@@ -10,7 +11,14 @@ import A5ppt from "../docs/A5.pptx";
 import A5pdf from "../docs/A5.pdf";
 import A6ppt from "../docs/A6.pptx";
 import A6pdf from "../docs/A6.pdf";
+import A8ppt from "../docs/A8.pptx";
+import A8pdf from "../docs/A8.pdf";
+import A10ppt from "../docs/A10.pptx";
+import A10pdf from "../docs/A10.pdf";
 import A6README from "../docs/A6-README.pdf";
+import scriptpdf from "../docs/script.pdf";
+import posterpdf from "../docs/poster.pdf";
+import A8README from "../docs/A8-README.pdf";
 import A9pdf from "../docs/A9.pdf";
 
 export function ProcessSection() {
@@ -112,6 +120,31 @@ export function ProcessSection() {
       ],
     },
     {
+      title: "A8: Interactive High-fi Prototype",
+      links: [
+        {
+          id: 1,
+          text: "README",
+          link: A8README,
+        },
+        {
+          id: 2,
+          text: "prototype link",
+          link: "https://www.figma.com/proto/kYvHrnqoLD0qnNdP5VA7Fs/Grapevine-(Copy)?page-id=0%3A1&type=design&node-id=1467-14731&viewport=9005%2C-1246%2C0.47&t=ctno9AfaTkxUHHDy-9&scaling=scale-down&starting-point-node-id=1467%3A14731&show-proto-sidebar=1",
+        },
+        {
+          id: 3,
+          text: "ppt",
+          link: A8ppt,
+        },
+        {
+          id: 4,
+          text: "pdf",
+          link: A8pdf,
+        },
+      ],
+    },
+    {
       title: "A9: Heuristic Evaluation Synthesis ",
       links: [
         {
@@ -127,37 +160,37 @@ export function ProcessSection() {
         {
           id: 1,
           text: "mp4",
-          link: Video,
+          link: DemoVideo,
         },
         {
           id: 2,
           text: "youtube",
-          link: "https://www.canva.com/design/DAFzbkW1HQM/E2a1D9B1ZKRLCnTk70jbzg/edit?utm_content=DAFzbkW1HQM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+          link: "https://youtu.be/Ko--GuLZMxI",
         },
         {
           id: 3,
           text: "slides ppt",
-          link: A5ppt,
+          link: A10ppt,
         },
         {
           id: 4,
           text: "slides pdf",
-          link: A5pdf,
+          link: A10pdf,
         },
         {
           id: 5,
           text: "script",
-          link: A6README,
+          link: scriptpdf,
         },
         {
           id: 6,
-          text: "poster docx",
-          link: A6README,
+          text: "poster figma",
+          link: "https://www.figma.com/file/hmIURsDWNeX8lXYgE1Bdxl/Grapevine-Poster?type=design&node-id=0%3A1&mode=design&t=ClYWNEge8eaHwVI2-1",
         },
         {
           id: 6,
           text: "poster pdf",
-          link: A6README,
+          link: posterpdf,
         },
       ],
     },

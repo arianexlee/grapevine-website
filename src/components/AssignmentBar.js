@@ -20,7 +20,7 @@ export function AssignmentBar({ title, links }) {
     <div className="w-full py-[40px] border-b-4 border-black">
       <div className="flex flex-col gap-4 sm:flex-row justify-between">
         <h1 className="font-sans text-lg font-bold ">{title}</h1>
-        <div className="flex flex-row flex-wrap space-x-10">
+        <div className="flex flex-row flex-wrap space-x-10 items-center justify-center">
           {links.map((item) => (
             <AssignmentLink
               key={item.id}
