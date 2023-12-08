@@ -22,8 +22,8 @@ export function DemoSection() {
         </div>
         <div className="flex-1 h-[400px]">
           <iframe
-            width="560"
-            height="315"
+            width="100%"
+            className="h-[200px] sm:h-[300px] lg:h-[420px]"
             src="https://www.youtube.com/embed/Ko--GuLZMxI?si=DPJmO0M13qH2fS1G"
             title="YouTube video player"
             frameborder="0"
