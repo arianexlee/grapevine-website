@@ -127,11 +127,11 @@ export function ProcessSection() {
           text: "README",
           link: A8README,
         },
-        {
-          id: 2,
-          text: "prototype link",
-          link: "https://www.figma.com/proto/kYvHrnqoLD0qnNdP5VA7Fs/Grapevine-(Copy)?page-id=0%3A1&type=design&node-id=1467-14731&viewport=9005%2C-1246%2C0.47&t=ctno9AfaTkxUHHDy-9&scaling=scale-down&starting-point-node-id=1467%3A14731&show-proto-sidebar=1",
-        },
+        // {
+        //   id: 2,
+        //   text: "prototype link",
+        //   link: "https://www.figma.com/proto/kYvHrnqoLD0qnNdP5VA7Fs/Grapevine-(Copy)?page-id=0%3A1&type=design&node-id=1467-14731&viewport=9005%2C-1246%2C0.47&t=ctno9AfaTkxUHHDy-9&scaling=scale-down&starting-point-node-id=1467%3A14731&show-proto-sidebar=1",
+        // },
         {
           id: 3,
           text: "ppt",
